@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/post_1"
+    tools:context=".All_Saved">
+
+    <Button
+        android:id="@+id/mail_List_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mail"
+        android:backgroundTint="@color/black"
+        android:textColor="#FFFF00"/>
+
+    <Button
+        android:id="@+id/clear_List_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="clear"
+        android:backgroundTint="@color/black"
+        android:textColor="#FFFF00"/>
+
+    <Button
+        android:id="@+id/back_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:backgroundTint="@color/black"
+        android:textColor="#FFFF00" />
+
+    <ListView
+        android:id="@+id/savedScanned_ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

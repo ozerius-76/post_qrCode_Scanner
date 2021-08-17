@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/post_1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/qrCode_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="********************"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/scan_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="scan qrCode"
+        android:backgroundTint="@color/black"
+        android:textColor="#FFFF00"/>
+
+    <Button
+        android:id="@+id/saveScan_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save scan"
+        android:backgroundTint="@color/black"
+        android:textColor="#FFFF00"/>
+
+    <Button
+        android:id="@+id/showAll_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show all"
+        android:backgroundTint="@color/black"
+        android:textColor="#FFFF00"/>
+
+    <EditText
+        android:id="@+id/saveMail_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="50"
+        android:textColor="#FF0000"/>
+
+</LinearLayout>
